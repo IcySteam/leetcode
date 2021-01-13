@@ -9,7 +9,7 @@
  * };
  */
 ​
-// This solution trades O(1) space complexity for a true one-pass approach with O(n) space complexity
+// This solution trades O(1) space complexity with two-pointer approach for a true one-pass approach with O(n) space complexity
 ​
 ​
 class Solution {
