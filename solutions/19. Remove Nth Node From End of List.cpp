@@ -8,6 +8,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+​
+// This solution trades O(1) space complexity for a true one-pass approach with O(n) space complexity
+​
+​
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
