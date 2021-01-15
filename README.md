@@ -8,3 +8,4 @@
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|36 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[C++](./solutions/504.%20Base%207.cpp)|0 ms|
 |1090|[ Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[C++](./solutions/1090.%20Largest%20Values%20From%20Labels.cpp)|64 ms|
+|1655|[ Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|[C++](./solutions/1655.%20Distribute%20Repeating%20Integers.cpp)|444 ms|
