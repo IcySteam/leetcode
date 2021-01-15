@@ -18,7 +18,7 @@ public:
                 else {
                     result += numTrees(i - 1) * numTrees(n - i);
                 }
-            }
+            }
             result_dict[n] = result;
             return result;
         }
