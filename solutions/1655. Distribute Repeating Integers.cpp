@@ -1,3 +1,12 @@
+class Solution {
+public:
+    /* // WRONG SOLUTION, greedy approach
+    bool canDistribute(vector<int>& nums, vector<int>& quantity) {
+        map<int, int> int_amount;
+        map<int, set<int>> amount_ints;
+        for (auto ele : nums) {
+            if (int_amount.find(ele) == int_amount.end()) {int_amount[ele] = 1;}
+            else {int_amount[ele]++;}
         }
         for (auto ele : int_amount) {
             amount_ints[ele.second].insert(int_amount[ele.first]);
