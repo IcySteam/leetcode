@@ -1,3 +1,59 @@
+                }
+            }
+            if (startX >= 1) {
+                int newValue = (int)board[startX - 1][startY] - '0';
+                if (newValue != 40) {
+                    int passedCurrentSum = currentSum;
+                    if (newValue >= 1 && newValue <= 9) {passedCurrentSum += newValue;}
+                    DFS(board, startX - 1, startY, passedCurrentSum);
+                }
+            }
+            if (startY >= 1) {
+                int newValue = (int)board[startX][startY - 1] - '0';
+                if (newValue != 40) {
+                    int passedCurrentSum = currentSum;
+                    if (newValue >= 1 && newValue <= 9) {passedCurrentSum += newValue;}
+                    DFS(board, startX, startY - 1, passedCurrentSum);
+                }
+            }
+        }
+    }
+};
+*/
+​
+// DP approach
+class Solution {
+public:
+    vector<vector<int>> maxSums;
+    vector<vector<int>> pathCountCache;
+    
+    vector<int> pathsWithMaxScore(vector<string>& board) {
+        int sizeX = (int)board.size();
+        int sizeY = (int)board[0].length();
+        maxSums.clear();
+        pathCountCache.clear();
+        for (int i = 0; i < sizeX; i++) {
+            vector<int> emptyRowVector;
+            maxSums.push_back(emptyRowVector);
+            pathCountCache.push_back(emptyRowVector);
+            for (int j = 0; j < sizeY; j++) {
+                maxSums[i].push_back(-1);
+                pathCountCache[i].push_back(-1);
+            }
+        }
+        for (int i = 0; i < sizeX; i++) {
+            for (int j = 0; j < sizeY; j++) {
+                maxSums[i][j] = getMaxSum(board, i, j);
+            }
+        }
+        
+        for (int i = 0; i < sizeX; i++) {
+            for (int j = 0; j < sizeY; j++) {
+                cout << maxSums[i][j] << "\t";
+            }
+            cout << endl;
+        }
+        int maxSum = maxSums[sizeX - 1][sizeY - 1];
         int maxPathCount = getMaxPathCount(maxSums, sizeX - 1, sizeY - 1);
         vector<int> output{maxSum, maxPathCount};
         //cout << maxSum << endl;
@@ -28,40 +84,3 @@
                     if (operandLeft == -1) {val2 = getMaxSum(board, X - 1, Y) + plusValue;}
                     else {val2 = operandLeft + plusValue;}
                 }
-            }
-            if (Y >= 1) {
-                if ((int)board[X][Y - 1] - '0' != 40) {
-                    int operandLeft = maxSums[X][Y - 1];
-                    if (operandLeft == -1) {val3 = getMaxSum(board, X, Y - 1) + plusValue;}
-                    else {val3 = operandLeft + plusValue;}
-                }
-            }
-            return max(max(val1, val2), max(val2, val3));
-        }
-    }
-    
-    int getMaxPathCount(vector<vector<int>>& maxSums, int X, int Y) {
-        if (X == 0 && Y == 0) {return 1;}
-        else {
-            int currentValue = maxSums[X][Y];
-            if (currentValue == -1) {return 0;}
-            int val1 = -1;
-            int val2 = -1;
-            int val3 = -1;
-            if (X >= 1 && Y >= 1) {val1 = maxSums[X - 1][Y - 1];}
-            if (X >= 1) {val2 = maxSums[X - 1][Y];}
-            if (Y >= 1) {val3 = maxSums[X][Y - 1];}
-            int myMax = max(max(val1, val2), max(val2, val3));
-            if (myMax == -1) {return 0;}
-            
-            int component1 = 0;
-            int component2 = 0;
-            int component3 = 0;
-            if (val1 >= myMax) {component1 = getMaxPathCount(maxSums, X - 1, Y - 1);}
-            if (val2 >= myMax) {component2 = getMaxPathCount(maxSums, X - 1, Y);}
-            if (val3 >= myMax) {component3 = getMaxPathCount(maxSums, X, Y - 1);}
-            return component1 + component2 + component3;
-        }
-        return 0;
-    }
-};
