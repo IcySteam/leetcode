@@ -9,9 +9,7 @@ public:
         }
         while (myMagicalString.length() < n) {
             int lastNum = myMagicalString[myMagicalString.length() - 1] - '0';
-            char appended;
-            if (lastNum == 1) {appended = '2';}
-            else if (lastNum == 2) {appended = '1';}
+            char appended = (lastNum == 1) ? '2' : '1';
             for (int i = 0; i < seed.front(); i++) {
                 myMagicalString.push_back(appended);
                 seed.push(appended - '0');
