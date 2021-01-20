@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[C++](./solutions/1.%20Two%20Sum.cpp)|8 ms|
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|4 ms|
 |96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C++](./solutions/96.%20Unique%20Binary%20Search%20Trees.cpp)|0 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[C++](./solutions/284.%20Peeking%20Iterator.cpp)|4 ms|
