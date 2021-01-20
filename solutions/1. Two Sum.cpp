@@ -1,3 +1,4 @@
+// sub-optimal O(n * log(n)) solution
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -16,7 +17,7 @@ public:
             }
         }
         return output;
-    }
+    }
     int doBinSearch(vector<int>& nums, int target, int start, int end) {
         if (start == end) {return nums[start] == target? start : -1;}
         int mid = (start + end) / 2;
