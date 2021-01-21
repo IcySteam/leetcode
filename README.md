@@ -16,3 +16,4 @@
 |1524|[ Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[C++](./solutions/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp)|N/A|
 |1599|[ Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|[C++](./solutions/1599.%20Maximum%20Profit%20of%20Operating%20a%20Centennial%20Wheel.cpp)|148 ms|
 |1655|[ Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|[C++](./solutions/1655.%20Distribute%20Repeating%20Integers.cpp)|444 ms|
+|1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
