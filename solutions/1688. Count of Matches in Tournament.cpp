@@ -12,10 +12,14 @@ public:
         else if (results[n] != -1) {return results[n];}
         else {
             if (n % 2 == 0) {
-                return n / 2 + getResult(n / 2);
+                int output = n / 2 + getResult(n / 2);
+                results[n] = output;
+                return output;
             }
             else {
-                return (n - 1) / 2 + getResult((n - 1) / 2) + 1;
+                int output = (n - 1) / 2 + getResult((n - 1) / 2) + 1;
+                results[n] = output;
+                return output;
             }
         }
     }
