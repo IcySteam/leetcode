@@ -1,4 +1,4 @@
-// O(n) solution; too slow
+// O(n^2) solution; too slow
 /*
 class Solution {
 public:
@@ -16,7 +16,7 @@ public:
 };
 */
 ​
-// binary O(n) solution; too slow
+// binary O(n^2) solution; too slow
 /*
 class Solution {
 public:
@@ -36,7 +36,7 @@ public:
 };
 */
 ​
-// new solution at O()
+// new solution at O(n) TBD
 class Solution {
 public:
     int numOfSubarrays(vector<int>& arr) {
