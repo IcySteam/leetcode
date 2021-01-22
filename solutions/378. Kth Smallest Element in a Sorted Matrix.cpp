@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // O(n^2)
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
         priority_queue<int, vector<int>, less<int>> my_max_heap; // max heap
@@ -11,3 +11,5 @@ public:
         return my_max_heap.top();
     }
 };
+​
+// pending binary search solution
