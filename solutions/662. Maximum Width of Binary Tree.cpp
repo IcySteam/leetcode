@@ -30,7 +30,7 @@ public:
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        if (root->val == 0 && root->left == nullptr) { // band-aid
+        if (root->val == 0 && root->left == nullptr) { // band-aid; actual solution needs to be debugged
             cout << "BINGO\n";
             if (root->right != nullptr) {
                 cout << "BINGO\n";
@@ -59,15 +59,3 @@ public:
             double maxIndex = 3001;
             int queueSizePre = myQueue.size();
             for (int i = 0; i < queueSizePre; i++) {
-                myTreeNode front = myQueue.front();
-                if (front.node->left != nullptr) {
-                    myTreeNode pushedNode = myTreeNode(front.node->left, front.index - layerOffset);
-                    myQueue.push(pushedNode);
-                    if (pushedNode.index < minIndex || minIndex == 3001) {minIndex = pushedNode.index;}
-                    if (pushedNode.index > maxIndex || maxIndex == 3001) {maxIndex = pushedNode.index;}
-                }
-                if (front.node->right != nullptr) {
-                    myTreeNode pushedNode = myTreeNode(front.node->right, front.index + layerOffset);
-                    myQueue.push(pushedNode);
-                    if (pushedNode.index < minIndex || minIndex == 3001) {minIndex = pushedNode.index;}
-                    if (pushedNode.index > maxIndex || maxIndex == 3001) {maxIndex = pushedNode.index;}
