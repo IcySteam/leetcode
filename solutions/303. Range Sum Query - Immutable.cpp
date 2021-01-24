@@ -28,7 +28,7 @@ public:
  */
 ​
     
-// Advanced solution O(1)
+// Advanced solution amortised O(1) with memoisation
     
 class NumArray {
 public:
@@ -41,7 +41,7 @@ public:
             for (int i = 1; i < my_array.size(); i++) {
                 sums.push_back(sums[i-1] + my_array[i]);
             }
-    }
+    }
     }
     
     vector<int> my_array;
