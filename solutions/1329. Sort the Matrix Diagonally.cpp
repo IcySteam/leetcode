@@ -1,3 +1,35 @@
+class Solution {
+public:
+    vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
+        queue<vector<int>> startingPositions;
+        for (int i = mat[0].size() - 1; i >= 0; i--) {
+            vector<int> temp;
+            temp.push_back(0);
+            temp.push_back(i);
+            startingPositions.push(temp);
+        }
+        for (int i = 1; i < mat.size() - 1; i++) {
+            vector<int> temp;
+            temp.push_back(i);
+            temp.push_back(0);
+            startingPositions.push(temp);
+        }
+        print(startingPositions.front());
+        vector<vector<int>> output = mat;
+        while (!startingPositions.empty()) {
+            vector<int> front = startingPositions.front();
+            int x = front[0];
+            int y = front[1];
+            vector<int> unsorted;
+            cout << "PASS x1\n";
+            while (x < mat.size() && y < mat[0].size()) {
+                unsorted.push_back(mat[x][y]);
+                x++;
+                y++;
+            }
+            cout << "PASS x2\n";
+            vector<int> sorted = radixsort(unsorted);
+            x = front[0];
             y = front[1];
             int counter = 0;
             while (x < mat.size() && y < mat[0].size()) {
@@ -60,29 +92,3 @@
     } 
     // The main function to that sorts arr[] of size n using 
     // Radix Sort 
-    vector<int> radixsort(vector<int>& arr) 
-    { 
-        int n = arr.size();
-        // Find the maximum number to know number of digits 
-        int m = getMax(arr); 
-        vector<int> outputArr = arr;
-​
-        // Do counting sort for every digit. Note that instead 
-        // of passing digit number, exp is passed. exp is 10^i 
-        // where i is current digit number 
-        for (int exp = 1; m / exp > 0; exp *= 10) {
-            outputArr = countSort(outputArr, exp); 
-        }
-        
-        return outputArr;
-    } 
-    // A utility function to print an array 
-    void print(vector<int>& arr) 
-    { 
-        int n = arr.size();
-        for (int i = 0; i < n; i++) {
-            cout << arr[i] << " "; 
-        }
-        cout << endl;
-    } 
-};
