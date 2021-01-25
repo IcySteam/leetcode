@@ -16,6 +16,7 @@
 |693|[ Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[C++](./solutions/693.%20Binary%20Number%20with%20Alternating%20Bits.cpp)|4 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.cpp)|92 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[C++](./solutions/832.%20Flipping%20an%20Image.cpp)|4 ms|
+|910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|40 ms|
 |1090|[ Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[C++](./solutions/1090.%20Largest%20Values%20From%20Labels.cpp)|64 ms|
 |1301|[ Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|[C++](./solutions/1301.%20Number%20of%20Paths%20with%20Max%20Score.cpp)|N/A|
 |1524|[ Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[C++](./solutions/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp)|N/A|
