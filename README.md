@@ -18,6 +18,7 @@
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[C++](./solutions/832.%20Flipping%20an%20Image.cpp)|4 ms|
 |856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./solutions/856.%20Score%20of%20Parentheses.cpp)|0 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|40 ms|
+|1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.cpp)|60 ms|
 |1090|[ Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[C++](./solutions/1090.%20Largest%20Values%20From%20Labels.cpp)|64 ms|
 |1301|[ Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|[C++](./solutions/1301.%20Number%20of%20Paths%20with%20Max%20Score.cpp)|N/A|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.cpp)|12 ms|
