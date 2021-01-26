@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int scoreOfParentheses(string S) {
+    int scoreOfParentheses(string& S) {
         if (S.size() == 2) {return 1;}
         else if (S.size() == 4) {return 2;}
         else {
