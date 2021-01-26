@@ -9,6 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// slow but it's O(n)
 class Solution {
 public:
     unordered_map<TreeNode*, vector<int>> myMap;
