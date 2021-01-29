@@ -11,6 +11,7 @@
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|36 ms|
 |481|[ Magical String](https://leetcode.com/problems/magical-string/)|[C++](./solutions/481.%20Magical%20String.cpp)|24 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[C++](./solutions/504.%20Base%207.cpp)|0 ms|
+|515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[C++](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.cpp)|24 ms|
 |629|[ K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|[C++](./solutions/629.%20K%20Inverse%20Pairs%20Array.cpp)|N/A|
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.cpp)|12 ms|
 |693|[ Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[C++](./solutions/693.%20Binary%20Number%20with%20Alternating%20Bits.cpp)|4 ms|
