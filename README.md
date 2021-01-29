@@ -9,6 +9,7 @@
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[C++](./solutions/284.%20Peeking%20Iterator.cpp)|4 ms|
 |303|[ Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./solutions/303.%20Range%20Sum%20Query%20-%20Immutable.cpp)|16 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|36 ms|
+|449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[C++](./solutions/449.%20Serialize%20and%20Deserialize%20BST.cpp)|N/A|
 |481|[ Magical String](https://leetcode.com/problems/magical-string/)|[C++](./solutions/481.%20Magical%20String.cpp)|24 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[C++](./solutions/504.%20Base%207.cpp)|0 ms|
 |515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[C++](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.cpp)|24 ms|
