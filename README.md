@@ -29,6 +29,7 @@
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.cpp)|12 ms|
 |1359|[ Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[C++](./solutions/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options.cpp)|0 ms|
 |1524|[ Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[C++](./solutions/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp)|N/A|
+|1593|[ Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[C++](./solutions/1593.%20Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings.cpp)|436 ms|
 |1599|[ Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|[C++](./solutions/1599.%20Maximum%20Profit%20of%20Operating%20a%20Centennial%20Wheel.cpp)|148 ms|
 |1655|[ Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|[C++](./solutions/1655.%20Distribute%20Repeating%20Integers.cpp)|444 ms|
 |1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
