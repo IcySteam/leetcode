@@ -12,6 +12,7 @@
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[C++](./solutions/449.%20Serialize%20and%20Deserialize%20BST.cpp)|N/A|
 |481|[ Magical String](https://leetcode.com/problems/magical-string/)|[C++](./solutions/481.%20Magical%20String.cpp)|24 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[C++](./solutions/504.%20Base%207.cpp)|0 ms|
+|506|[ Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[C++](./solutions/506.%20Relative%20Ranks.cpp)|16 ms|
 |515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[C++](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.cpp)|24 ms|
 |629|[ K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|[C++](./solutions/629.%20K%20Inverse%20Pairs%20Array.cpp)|N/A|
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.cpp)|12 ms|
