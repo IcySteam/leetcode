@@ -1,3 +1,4 @@
+// set O(n^2)
 class Solution {
 public:
     string replaceWords(vector<string>& dictionary, string sentence) {
@@ -35,3 +36,5 @@ public:
         return output.substr(0, output.size() - 1);
     }
 };
+​
+// trie TO BE IMPLEMENTED
