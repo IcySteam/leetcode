@@ -11,6 +11,7 @@
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|36 ms|
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[C++](./solutions/449.%20Serialize%20and%20Deserialize%20BST.cpp)|N/A|
 |467|[ Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[C++](./solutions/467.%20Unique%20Substrings%20in%20Wraparound%20String.cpp)|8 ms|
+|468|[ Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./solutions/468.%20Validate%20IP%20Address.cpp)|0 ms|
 |481|[ Magical String](https://leetcode.com/problems/magical-string/)|[C++](./solutions/481.%20Magical%20String.cpp)|24 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[C++](./solutions/504.%20Base%207.cpp)|0 ms|
 |506|[ Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[C++](./solutions/506.%20Relative%20Ranks.cpp)|16 ms|
