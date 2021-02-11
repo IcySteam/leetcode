@@ -12,6 +12,7 @@
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[C++](./solutions/449.%20Serialize%20and%20Deserialize%20BST.cpp)|N/A|
 |467|[ Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[C++](./solutions/467.%20Unique%20Substrings%20in%20Wraparound%20String.cpp)|8 ms|
 |468|[ Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./solutions/468.%20Validate%20IP%20Address.cpp)|0 ms|
+|473|[ Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[C++](./solutions/473.%20Matchsticks%20to%20Square.cpp)|N/A|
 |481|[ Magical String](https://leetcode.com/problems/magical-string/)|[C++](./solutions/481.%20Magical%20String.cpp)|24 ms|
 |504|[ Base 7](https://leetcode.com/problems/base-7/)|[C++](./solutions/504.%20Base%207.cpp)|0 ms|
 |506|[ Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[C++](./solutions/506.%20Relative%20Ranks.cpp)|16 ms|
