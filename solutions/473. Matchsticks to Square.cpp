@@ -1,13 +1,15 @@
 class Solution {
 public:
-    vector<int> groups;
+    vector<int> sums;
+    int sum;
     bool found;
     
     bool makesquare(vector<int>& nums) {
-        int sum = accumulate(nums.begin(), nums.end(), 0);
+        sum = accumulate(nums.begin(), nums.end(), 0);
         if (sum % 4 != 0 || sum == 0) {return false;}
-        groups.clear();
-        for (int i = 0; i < nums.size(); i++) {groups.push_back(0);}
+        sums.clear();
+        for (int i = 0; i < 4; i++) {sums.push_back(0);}
+        sort(nums.begin(), nums.end(), greater<int>()); // trick to save some time
         found = false;
         DFS(nums, 0);
         return found;
@@ -16,19 +18,18 @@ public:
     void DFS(vector<int>& nums, int pos) {
         if (found) {return;}
         if (pos == nums.size()) {
-            vector<int> sums(4, 0);
-            for (int i = 0; i < nums.size(); i++) {
-                sums[groups[i] - 1] += nums[i];
-            }
             cout << sums[0] << " " << sums[1] << " " << sums[2] << " " << sums[3] << "\n";
             if (sums[0] == sums[1] && sums[0] == sums[2] && sums[0] == sums[3]) {
                 found = true;
             }
-        }
+        }
         else {
-            for (int i = 1; i <= 4; i++) {
-                groups[pos] = i;
-                DFS(nums, pos + 1);
+            for (int i = 0; i < 4; i++) {
+                if (sums[i] + nums[pos] <= sum / 4) { // another small trick
+                    sums[i] += nums[pos];
+                    DFS(nums, pos + 1);
+                    sums[i] -= nums[pos];
+                }
             }
         }
     }
