@@ -27,6 +27,7 @@
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[C++](./solutions/832.%20Flipping%20an%20Image.cpp)|4 ms|
 |856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./solutions/856.%20Score%20of%20Parentheses.cpp)|0 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|40 ms|
+|955|[ Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|[C++](./solutions/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.cpp)|8 ms|
 |984|[ String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|[C++](./solutions/984.%20String%20Without%20AAA%20or%20BBB.cpp)|0 ms|
 |1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.cpp)|56 ms|
 |1052|[ Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[C++](./solutions/1052.%20Grumpy%20Bookstore%20Owner.cpp)|48 ms|
