@@ -28,6 +28,7 @@
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.cpp)|92 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[C++](./solutions/832.%20Flipping%20an%20Image.cpp)|4 ms|
 |856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./solutions/856.%20Score%20of%20Parentheses.cpp)|0 ms|
+|873|[ Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)|[C++](./solutions/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence.cpp)|196 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[C++](./solutions/910.%20Smallest%20Range%20II.cpp)|40 ms|
 |955|[ Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|[C++](./solutions/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.cpp)|8 ms|
 |984|[ String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|[C++](./solutions/984.%20String%20Without%20AAA%20or%20BBB.cpp)|0 ms|
