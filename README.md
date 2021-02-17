@@ -41,6 +41,7 @@
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.cpp)|124 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.cpp)|12 ms|
 |1359|[ Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[C++](./solutions/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options.cpp)|0 ms|
+|1388|[ Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)|[C++](./solutions/1388.%20Pizza%20With%203n%20Slices.cpp)|0 ms|
 |1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[C++](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.cpp)|4 ms|
 |1514|[ Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[C++](./solutions/1514.%20Path%20with%20Maximum%20Probability.cpp)|728 ms|
 |1524|[ Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[C++](./solutions/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp)|156 ms|
