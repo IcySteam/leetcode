@@ -1,4 +1,3 @@
-//         int n = slices.size() / 3;
 //         vector<vector<int>> dp(n, vector<int>(m, 0));
 //         for (int i = 0; i < n; i++) {
 //             if (i == 0) {
@@ -65,7 +64,6 @@ public:
         while (count < n && !myHeap.empty()) {
             Node* top = myHeap.top();
             myHeap.pop();
-            vector<Node*> updating{top, top->left, top->right};
             if (!top->deleted) {
                 count++;
                 output += top->val;
@@ -79,7 +77,7 @@ public:
                 top->left = top->left->left;
                 top->right = top->right->right;
                 
-                for (auto& ele : updating) {myHeap.push(ele);}
+                myHeap.push(top);
             }
         }
         for (auto& ele : myNodes) {delete ele;}
