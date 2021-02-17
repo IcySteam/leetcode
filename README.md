@@ -49,3 +49,4 @@
 |1655|[ Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|[C++](./solutions/1655.%20Distribute%20Repeating%20Integers.cpp)|444 ms|
 |1671|[ Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)|[C++](./solutions/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array.cpp)|12 ms|
 |1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
+|1749|[ Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[C++](./solutions/1749.%20Maximum%20Absolute%20Sum%20of%20Any%20Subarray.cpp)|224 ms|
