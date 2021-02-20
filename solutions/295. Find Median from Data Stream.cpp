@@ -29,10 +29,12 @@ public:
                     med_hi--;
                 }
                 else if (num >= *med_hi) {
-                    med_hi = ++med_lo; // IMPORTANT
+                    med_lo++;
+                    med_hi = med_lo; // IMPORTANT
                 }
                 else if (num <= *med_lo) {
-                    med_lo = --med_hi; // IMPORTANT
+                    med_hi--;
+                    med_lo = med_hi; // IMPORTANT
                 }
             }
         }
