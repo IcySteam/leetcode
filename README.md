@@ -38,6 +38,7 @@
 |1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.cpp)|56 ms|
 |1052|[ Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[C++](./solutions/1052.%20Grumpy%20Bookstore%20Owner.cpp)|48 ms|
 |1090|[ Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[C++](./solutions/1090.%20Largest%20Values%20From%20Labels.cpp)|64 ms|
+|1186|[ Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|[C++](./solutions/1186.%20Maximum%20Subarray%20Sum%20with%20One%20Deletion.cpp)|56 ms|
 |1219|[ Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[C++](./solutions/1219.%20Path%20with%20Maximum%20Gold.cpp)|1800 ms|
 |1301|[ Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|[C++](./solutions/1301.%20Number%20of%20Paths%20with%20Max%20Score.cpp)|204 ms|
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.cpp)|124 ms|
