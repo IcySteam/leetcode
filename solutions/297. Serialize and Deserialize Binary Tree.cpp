@@ -25,17 +25,21 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-const int REPR_NULL = -1001;
+​
 ​
 class Codec {
 public:
+    const int REPR_NULL = -1001;
+    char repr_null_chars[sizeof(int)];
+    
+    Codec() {
+        memcpy(&repr_null_chars, &REPR_NULL, sizeof(int));
+    }
 ​
     // Encodes a tree to a single string.
     void preorderDFS(string& output, TreeNode* node) {
         if (node == nullptr) {
-            char nullChars[sizeof(int)];
-            memcpy(&nullChars, &REPR_NULL, sizeof(int));
-            for (int i = 0; i < sizeof(int); i++) {output.push_back(nullChars[i]);}
+            for (int i = 0; i < sizeof(int); i++) {output.push_back(repr_null_chars[i]);}
         }
         else {
             char myInt[sizeof(int)];
@@ -50,12 +54,12 @@ public:
     string serialize(TreeNode* root) {
         string output = "";
         preorderDFS(output, root);
-        // cout << output << endl;
         return output;
     }
     
     TreeNode* reconstruct(string& data, int& pos) {
         if (pos >= data.size()) {return nullptr;}
+        
         int myInt;
         memcpy(&myInt, &data[pos], sizeof(int));
         pos += sizeof(int);
