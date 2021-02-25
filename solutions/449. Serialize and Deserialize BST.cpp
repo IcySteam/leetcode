@@ -1,3 +1,7 @@
+//         return output;
+//     }
+    
+//     int getDepthFromSize(int size) { // cache to improve runtime
 //         int output = 0;
 //         int sum = 0;
 //         while (sum < size) {
@@ -48,7 +52,6 @@ public:
     
     string serialize(TreeNode* root) {
         string output = "";
-        if (root == nullptr) {return output;}
         preorderDFS(output, root);
         return output;
     }
