@@ -1,72 +1,85 @@
-                        allNull = false;
-                        output.append(to_string(front->left->val) + ",");
-                        myQueue.push(front->left);
-                    }
-                    if (front->right == nullptr) {
-                        output.append("n,");
-                        myQueue.push(nullptr);
-                    }
-                    else {
-                        allNull = false;
-                        output.append(to_string(front->right->val) + ",");
-                        myQueue.push(front->right);
-                    }
-                }
-                else {
-                    output.append("n,");
-                    output.append("n,");
-                    myQueue.push(nullptr);
-                    myQueue.push(nullptr);
-                }
-                myQueue.pop();
-            }
-            if (allNull) {break;}
-        }
-        int trimIndex;
-        for (int i = output.size() - 1; i >= 0; i--) {
-            if (output[i] != ',' && output[i] != 'n') {
-                trimIndex = i;
-                break;
-            }
-        }
-        output = output.substr(0, trimIndex + 2);
-        cout << output << endl;
-        //vector<int> outputVec = str2vec(output);
-        // for (auto ele : outputVec) {cout << ele << " ";}
-        // cout << endl;
+//         int output = 0;
+//         int sum = 0;
+//         while (sum < size) {
+//             sum += pow(2, output);
+//             output++;
+//         }
+//         return output;
+//     }
+    
+//     int getIndexFromDepth(int depth) {
+//         int output = 0;
+//         for (int i = 0; i < depth; i++) {
+//             output += pow(2, i);
+//         }
+//         return output;
+//     }
+// };
+​
+// // Your Codec object will be instantiated and called as such:
+// // Codec* ser = new Codec();
+// // Codec* deser = new Codec();
+// // string tree = ser->serialize(root);
+// // TreeNode* ans = deser->deserialize(tree);
+// // return ans;
+​
+​
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Codec {
+public:
+​
+    // Encodes a tree to a single string.
+    void preorderDFS(string& output, TreeNode* node) {
+        if (node == nullptr) {return;}
+        char myInt[sizeof(int)];
+        memcpy(&myInt, &(node->val), sizeof(int));
+        for (int i = 0; i < sizeof(int); i++) {output.push_back(myInt[i]);}
+        preorderDFS(output, node->left);
+        preorderDFS(output, node->right);
+    }
+    
+    string serialize(TreeNode* root) {
+        string output = "";
+        if (root == nullptr) {return output;}
+        preorderDFS(output, root);
         return output;
     }
 ​
-    // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) {
-        if (data == "") {return nullptr;}
-        vector<int> dataVec = str2vec(data);
-        TreeNode* output = new TreeNode(dataVec[0]); // cbb to free
-        vector<TreeNode*> nodes;
-        nodes.push_back(output);
-        int currentDepth = 1;
-        int depth = getDepthFromSize(dataVec.size());
-        while (currentDepth < depth) {
-            int start = getIndexFromDepth(currentDepth);
-            int end;
-            int end1 = getIndexFromDepth(currentDepth + 1);
-            if (end1 > dataVec.size()) {end = dataVec.size();}
-            else {end = end1;}
-            for (int i = start; i < end; i++) {
-                if (dataVec[i] == -1) {nodes.push_back(nullptr);}
-                else {
-                    TreeNode* newNode = new TreeNode(dataVec[i]);
-                    nodes.push_back(newNode);
-                    TreeNode* parent = nodes[(i - 1) / 2];
-                    // cout << "index: " << i << endl;
-                    // if (parent == nullptr) {cout << "NULL!\n";}
-                    // else {cout << "val: " << parent->val << endl;}
-                    if (i % 2 == 0) {parent->right = newNode;}
-                    else {parent->left = newNode;}
-                }
-            }
-            currentDepth++;
-        }
-        return output;
+    TreeNode* reconstruct(string& data, int& pos, int minVal, int maxVal) {
+        if (pos >= data.size()) {return nullptr;}
+        
+        int val;
+        memcpy(&val, &data[pos], sizeof(int));
+        if (val < minVal || val > maxVal) {return nullptr;}
+        
+        pos += sizeof(int);
+        TreeNode* node = new TreeNode(val);
+        node->left = reconstruct(data, pos, minVal, val);
+        node->right = reconstruct(data, pos, val, maxVal);
+        return node;
+​
     }
     
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string& data) {
+        TreeNode* output;
+        int pos = 0;
+        output = reconstruct(data, pos, INT_MIN, INT_MAX);
+        return output;
+    }
+};
+​
+// Your Codec object will be instantiated and called as such:
+// Codec* ser = new Codec();
+// Codec* deser = new Codec();
+// string tree = ser->serialize(root);
+// TreeNode* ans = deser->deserialize(tree);
+// return ans;
