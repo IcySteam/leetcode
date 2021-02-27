@@ -54,6 +54,7 @@
 |1593|[ Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[C++](./solutions/1593.%20Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings.cpp)|280 ms|
 |1599|[ Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|[C++](./solutions/1599.%20Maximum%20Profit%20of%20Operating%20a%20Centennial%20Wheel.cpp)|148 ms|
 |1655|[ Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|[C++](./solutions/1655.%20Distribute%20Repeating%20Integers.cpp)|444 ms|
+|1658|[ Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[C++](./solutions/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.cpp)|344 ms|
 |1671|[ Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)|[C++](./solutions/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array.cpp)|12 ms|
 |1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
 |1749|[ Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[C++](./solutions/1749.%20Maximum%20Absolute%20Sum%20of%20Any%20Subarray.cpp)|224 ms|
