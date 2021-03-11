@@ -1,5 +1,46 @@
+class LISInt {
+public:
+    LISInt(int pInt) {
+        val = pInt;
+        parent = this;
+    }
+    int val;
+    LISInt* parent;
+};
+​
 class Solution {
 public:
+    // IcySteam's actual pointer implementation; ref: https://www.youtube.com/watch?v=1RpMc3fv0y4 (by IDeserve@YouTube)
+    vector<int> myGenLIS(vector<int>& nums) {
+        vector<LISInt*> tracking;
+        tracking.push_back(new LISInt(nums[0]));
+        for (int i = 1; i < nums.size(); i++) {
+            int low = 0;
+            int high = tracking.size();
+            while (low < high) {
+                int mid = floor((low + high) / 2);
+                if (nums[i] > tracking[mid]->val) {
+                    low = mid + 1;
+                }
+                else {
+                    high = mid - 1;
+                }
+            }
+            int pos = low;
+            LISInt* newEle = new LISInt(nums[i]);
+            if (pos > 0) {newEle->parent = tracking[pos - 1];}
+            if (pos == tracking.size()) {tracking.push_back(newEle);}
+            else {tracking[pos] = newEle;}
+        }
+        vector<int> output(tracking.size(), 0);
+        LISInt* currentLISInt = tracking.back();
+        for (int i = tracking.size() - 1; i >= 0; i--) {
+            output[i] = currentLISInt->val;
+            currentLISInt = currentLISInt->parent;
+        }
+        return output;
+    }
+    
     // see 300. Longest Increasing Subsequence
     vector<int> genLIS(vector<int>& nums) {
         vector<int> parent(nums.size(), 0); //Tracking the predecessors/parents of elements of each subsequence.
@@ -30,62 +71,3 @@ public:
             increasingSub[pos] = i;
             
             //Update the length of the longest subsequence.
-            if(pos > length)
-                length = pos;
-        }
-        
-        //Generate LIS by traversing parent array
-        vector<int> LIS(length);
-        int k = increasingSub[length];
-        for(int j = length - 1; j >= 0; j--)
-        {
-            LIS[j] = nums[k];
-            k = parent[k];
-        }
-        
-        cout << "parent: ";
-        for (int i = 0; i < nums.size(); i++) {
-            cout << parent[i] << " ";
-        }
-        cout << endl;
-        cout << "increasingSub: ";
-        for (int i = 0; i < nums.size() + 1; i++) {
-            cout << increasingSub[i] << " ";
-        }
-        cout << endl;
-        
-        return LIS;
-    }
-    
-    
-    int minimumMountainRemovals(vector<int>& nums) {
-        vector<int> lis = genLIS(nums);
-        cout << "LIS: ";
-        for (int i = 0; i < lis.size(); i++) {
-            cout << lis[i] << " ";
-        }
-        cout << endl;
-        
-        vector<int> incParentIndexes(nums.size());
-        vector<int> incIncreasingSubEndIndexes(nums.size() + 1);
-        vector<int> incSubLens(nums.size());
-        int incLongestLen = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            int pos = myBinSearch(nums, incIncreasingSubEndIndexes, 1, incLongestLen, nums[i]);
-            incParentIndexes[i] = incIncreasingSubEndIndexes[pos - 1];
-            incIncreasingSubEndIndexes[pos] = i;
-            incLongestLen = max({incLongestLen, pos});
-            incSubLens[i] = pos;
-        }
-        
-        vector<int> decParentIndexes(nums.size());
-        vector<int> decIncreasingSubEndIndexes(nums.size() + 1);
-        vector<int> decSubLens(nums.size());
-        int decLongestLen = 0;
-        for (int i = nums.size() - 1; i >= 0; i--) {
-            int pos = myBinSearch(nums, decIncreasingSubEndIndexes, 1, decLongestLen, nums[i]);
-            decParentIndexes[i] = decIncreasingSubEndIndexes[pos - 1];
-            decIncreasingSubEndIndexes[pos] = i;
-            decLongestLen = max({decLongestLen, pos});
-            decSubLens[i] = pos;
-        }
