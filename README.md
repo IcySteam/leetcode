@@ -47,6 +47,7 @@
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.cpp)|124 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.cpp)|12 ms|
 |1349|[ Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|[C++](./solutions/1349.%20Maximum%20Students%20Taking%20Exam.cpp)|8 ms|
+|1357|[ Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|[C++](./solutions/1357.%20Apply%20Discount%20Every%20n%20Orders.cpp)|196 ms|
 |1359|[ Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[C++](./solutions/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options.cpp)|0 ms|
 |1388|[ Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)|[C++](./solutions/1388.%20Pizza%20With%203n%20Slices.cpp)|0 ms|
 |1473|[ Paint House III](https://leetcode.com/problems/paint-house-iii/)|[C++](./solutions/1473.%20Paint%20House%20III.cpp)|172 ms|
