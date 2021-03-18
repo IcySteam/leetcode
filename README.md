@@ -41,6 +41,7 @@
 |955|[ Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|[C++](./solutions/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.cpp)|8 ms|
 |984|[ String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|[C++](./solutions/984.%20String%20Without%20AAA%20or%20BBB.cpp)|0 ms|
 |1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.cpp)|56 ms|
+|1038|[ Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[C++](./solutions/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.cpp)|4 ms|
 |1052|[ Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[C++](./solutions/1052.%20Grumpy%20Bookstore%20Owner.cpp)|48 ms|
 |1090|[ Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/)|[C++](./solutions/1090.%20Largest%20Values%20From%20Labels.cpp)|64 ms|
 |1186|[ Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|[C++](./solutions/1186.%20Maximum%20Subarray%20Sum%20with%20One%20Deletion.cpp)|56 ms|
