@@ -29,6 +29,7 @@
 |648|[ Replace Words](https://leetcode.com/problems/replace-words/)|[C++](./solutions/648.%20Replace%20Words.cpp)|92 ms|
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[C++](./solutions/657.%20Robot%20Return%20to%20Origin.cpp)|8 ms|
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.cpp)|12 ms|
+|669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.cpp)|12 ms|
 |693|[ Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[C++](./solutions/693.%20Binary%20Number%20with%20Alternating%20Bits.cpp)|4 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[C++](./solutions/705.%20Design%20HashSet.cpp)|248 ms|
 |778|[ Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[C++](./solutions/778.%20Swim%20in%20Rising%20Water.cpp)|232 ms|
