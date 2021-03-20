@@ -29,11 +29,11 @@ class Solution {
 public:
     int smallestRangeII(vector<int>& A, int K) {
         sort(A.begin(), A.end());
-        int output = A[A.size() - 1] - A[0];
+        int output = A.back() - A[0];
         for (int i = 0; i < A.size() - 1; i++) {
-            int variationMin = min(A[0] + K, A[i + 1] - K);
-            int variationMax = max(A[i] + K, A[A.size() - 1] - K);
-            if (variationMax - variationMin < output) {output = variationMax - variationMin;}
+            int biggest = max({A[i] + K, A.back() - K});
+            int smallest = min({A[0] + K, A[i + 1] - K});
+            output = min({output, biggest - smallest});
         }
         return output;
     }        
