@@ -1,36 +1,45 @@
 class Solution {
 public:
     int countValid = 0;
+    vector<int> memo;
     
-    void DFS(string& s, int start) {
+    int DFS(string& s, int start) {
         if (start >= s.size()) {
-            countValid++;
-            return;
+            return 1;
         }
         
-        if (s[start] == '0') {return;}
+        if (memo[start] != -1) {return memo[start];}
+        
+        if (s[start] == '0') {return 0;}
         
         if (s[start] == '1') {
-            DFS(s, start + 1);
+            int res = DFS(s, start + 1);
             if (start + 1 < s.size()) {
-                DFS(s, start + 2);
+                res += DFS(s, start + 2);
             }
+            memo[start] = res;
+            return res;
         }
         else if (s[start] == '2') {
-            DFS(s, start + 1);
+            int res = DFS(s, start + 1);
             if (start + 1 < s.size()) {
                 if (s[start + 1] >= '0' && s[start + 1] <= '6') {
-                    DFS(s, start + 2);
+                    res += DFS(s, start + 2);
                 }
             }
+            memo[start] = res;
+            return res;
         }
         else {
-            DFS(s, start + 1);
+            int res = DFS(s, start + 1);
+            memo[start] = res;
+            return res;
         }
     }
     
     int numDecodings(string& s) {
-        DFS(s, 0);
-        return countValid;
+        vector<int> memo_temp(s.size(), -1);
+        memo = memo_temp;
+        return DFS(s, 0);
     }
 };
