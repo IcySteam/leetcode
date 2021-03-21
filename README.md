@@ -62,7 +62,7 @@
 |1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[C++](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.cpp)|4 ms|
 |1514|[ Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[C++](./solutions/1514.%20Path%20with%20Maximum%20Probability.cpp)|728 ms|
 |1518|[ Water Bottles](https://leetcode.com/problems/water-bottles/)|[C++](./solutions/1518.%20Water%20Bottles.cpp)|0 ms|
-|1524|[ Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[C++](./solutions/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp)|156 ms|
+|1524|[ Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[C++](./solutions/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp)|332 ms|
 |1593|[ Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[C++](./solutions/1593.%20Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings.cpp)|280 ms|
 |1599|[ Maximum Profit of Operating a Centennial Wheel](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)|[C++](./solutions/1599.%20Maximum%20Profit%20of%20Operating%20a%20Centennial%20Wheel.cpp)|148 ms|
 |1655|[ Distribute Repeating Integers](https://leetcode.com/problems/distribute-repeating-integers/)|[C++](./solutions/1655.%20Distribute%20Repeating%20Integers.cpp)|444 ms|
