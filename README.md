@@ -16,7 +16,7 @@
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[C++](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.cpp)|40 ms|
 |303|[ Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./solutions/303.%20Range%20Sum%20Query%20-%20Immutable.cpp)|16 ms|
 |318|[ Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[C++](./solutions/318.%20Maximum%20Product%20of%20Word%20Lengths.cpp)|232 ms|
-|322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./solutions/322.%20Coin%20Change.cpp)|76 ms|
+|322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./solutions/322.%20Coin%20Change.cpp)|100 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[C++](./solutions/337.%20House%20Robber%20III.cpp)|24 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|36 ms|
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[C++](./solutions/449.%20Serialize%20and%20Deserialize%20BST.cpp)|20 ms|
