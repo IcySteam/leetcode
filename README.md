@@ -35,6 +35,7 @@
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.cpp)|12 ms|
 |693|[ Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[C++](./solutions/693.%20Binary%20Number%20with%20Alternating%20Bits.cpp)|4 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[C++](./solutions/705.%20Design%20HashSet.cpp)|248 ms|
+|739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./solutions/739.%20Daily%20Temperatures.cpp)|60 ms|
 |778|[ Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[C++](./solutions/778.%20Swim%20in%20Rising%20Water.cpp)|232 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.cpp)|92 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[C++](./solutions/832.%20Flipping%20an%20Image.cpp)|4 ms|
