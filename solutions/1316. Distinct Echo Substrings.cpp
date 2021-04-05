@@ -44,13 +44,13 @@ public:
         }
         
         unordered_set<string> hits;
-        for (int subLen = 1; subLen <= text.size() / 2; subLen++) {
-            for (int i = 0; i <= text.size() - 2 * subLen; i++) {
-                if (substrHashes[i][i + subLen - 1] == substrHashes[i + subLen][i + subLen + subLen - 1]) {
-                    hits.insert(text.substr(i, subLen * 2));
-                }
-            }
-        }
+        // for (int subLen = 1; subLen <= text.size() / 2; subLen++) {
+        //     for (int i = 0; i <= text.size() - 2 * subLen; i++) {
+        //         if (substrHashes[i][i + subLen - 1] == substrHashes[i + subLen][i + subLen + subLen - 1]) {
+        //             hits.insert(text.substr(i, subLen * 2));
+        //         }
+        //     }
+        // }
         return hits.size();
     }
 };
