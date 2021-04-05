@@ -57,7 +57,7 @@
 |1219|[ Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[C++](./solutions/1219.%20Path%20with%20Maximum%20Gold.cpp)|1800 ms|
 |1301|[ Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)|[C++](./solutions/1301.%20Number%20of%20Paths%20with%20Max%20Score.cpp)|204 ms|
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[C++](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.cpp)|124 ms|
-|1316|[ Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|[C++](./solutions/1316.%20Distinct%20Echo%20Substrings.cpp)|N/A|
+|1316|[ Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)|[C++](./solutions/1316.%20Distinct%20Echo%20Substrings.cpp)|220 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[C++](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.cpp)|12 ms|
 |1349|[ Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|[C++](./solutions/1349.%20Maximum%20Students%20Taking%20Exam.cpp)|8 ms|
 |1357|[ Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|[C++](./solutions/1357.%20Apply%20Discount%20Every%20n%20Orders.cpp)|196 ms|
