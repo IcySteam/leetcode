@@ -1,4 +1,4 @@
-// my OG solution; too slow
+// my OG solution; too slow at O(mn^2) aka. O(n^2)
 class Solution {
 public:
     int splitArray(const vector<int>& nums, int m) {
