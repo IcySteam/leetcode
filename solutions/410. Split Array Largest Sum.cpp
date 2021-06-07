@@ -1,3 +1,4 @@
+// my OG solution; too slow
 class Solution {
 public:
     int splitArray(const vector<int>& nums, int m) {
