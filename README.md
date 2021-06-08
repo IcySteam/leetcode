@@ -52,6 +52,7 @@
 |950|[ Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)|[C++](./solutions/950.%20Reveal%20Cards%20In%20Increasing%20Order.cpp)|0 ms|
 |955|[ Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)|[C++](./solutions/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.cpp)|8 ms|
 |984|[ String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)|[C++](./solutions/984.%20String%20Without%20AAA%20or%20BBB.cpp)|0 ms|
+|1024|[ Video Stitching](https://leetcode.com/problems/video-stitching/)|[C++](./solutions/1024.%20Video%20Stitching.cpp)|4 ms|
 |1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.cpp)|56 ms|
 |1038|[ Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[C++](./solutions/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.cpp)|4 ms|
 |1052|[ Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[C++](./solutions/1052.%20Grumpy%20Bookstore%20Owner.cpp)|48 ms|
