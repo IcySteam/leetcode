@@ -22,7 +22,7 @@
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./solutions/322.%20Coin%20Change.cpp)|100 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[C++](./solutions/337.%20House%20Robber%20III.cpp)|24 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp)|36 ms|
-|410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[C++](./solutions/410.%20Split%20Array%20Largest%20Sum.cpp)|N/A|
+|410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[C++](./solutions/410.%20Split%20Array%20Largest%20Sum.cpp)|0 ms|
 |424|[ Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[C++](./solutions/424.%20Longest%20Repeating%20Character%20Replacement.cpp)|48 ms|
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[C++](./solutions/449.%20Serialize%20and%20Deserialize%20BST.cpp)|20 ms|
 |467|[ Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)|[C++](./solutions/467.%20Unique%20Substrings%20in%20Wraparound%20String.cpp)|8 ms|
